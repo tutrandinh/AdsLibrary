@@ -1,0 +1,3 @@
+rootProject.name = "SappAdsLibrary"
+include ':app'
+include ':ads'

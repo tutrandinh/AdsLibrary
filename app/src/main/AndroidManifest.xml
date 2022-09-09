@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sappadslibrary">
+
+    <application
+        android:name="com.sappadslibrary.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AmazicAdsLibrary">
+        <activity android:name="com.sappadslibrary.MainActivity3" />
+        <activity
+            android:name="com.sappadslibrary.applovin.MainApplovinActivity"
+            android:exported="false" />
+        <activity android:name="com.sappadslibrary.Splash" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sappadslibrary.MainActivity2" />
+        <activity android:name="com.sappadslibrary.MainActivity" />
+        <activity
+            android:name="com.sappadslibrary.applovin.SimpleListActivity"
+            android:exported="false" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4973559944609228~2346710863" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="3N4Mt8SNhOzkQnGb9oHsRRG1ItybcZDpJWN1fVAHLdRagxP-_k_ZXVaMAdMe5Otsmp6qJSXskfsrtakfRmPAGW" />
+
+    </application>
+
+</manifest>
